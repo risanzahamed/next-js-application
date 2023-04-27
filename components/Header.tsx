@@ -14,7 +14,7 @@ const Header = () => {
                         <div className="mt-2 lg:mt-0">
                             <h2>Call For any help: +8801727951592</h2>
                         </div>
-                        <div className="lg:mt-0 mt-2 ml-10">
+                        <div className="lg:mt-0 mt-2 lg:ml-10">
                             <h2>lifeline@lifeline.com</h2>
                         </div>
                         <div className="mt-2 lg:mt-0">

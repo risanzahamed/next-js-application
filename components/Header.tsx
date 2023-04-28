@@ -11,13 +11,13 @@ const Header = () => {
             <section className="py-5 bg-gray-900 ">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-[1400px]">
                     <div className="grid grid-cols-1 mx-auto text-center text-white md:grid-cols-4 md:gap-x-12">
-                        <div className="mt-2 lg:mt-0">
+                        <div className="mt-2  lg:mt-0">
                             <h2>Call For any help: +8801727951592</h2>
                         </div>
-                        <div className="lg:mt-0 mt-2 lg:ml-10">
+                        <div className="lg:mt-0 hidden lg:block mt-2 lg:ml-10">
                             <h2>lifeline@lifeline.com</h2>
                         </div>
-                        <div className="mt-2 lg:mt-0">
+                        <div className="mt-2 hidden lg:block lg:mt-0">
                             <h2>Mon-Fri / 9am - 8pm</h2>
                         </div>
                         <div className="flex lg:mt-0 mt-2 text-center mx-auto lg:ml-32">
@@ -58,7 +58,9 @@ const Header = () => {
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h16M4 16h16" />
+                            </svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
 
@@ -120,7 +122,7 @@ const Header = () => {
                         href='/'
                         aria-label='ALONE NCO'
                         title='ALONE NCO'
-                        className='inline-flex items-center'
+                        className='inline-flex items-center '
                     >
 
                         <Image width={566} height={190} className="w-full mx-auto "
@@ -192,7 +194,7 @@ const Header = () => {
                         href='/donate'
                         aria-label='Donate Now'
                         title='Donate Now'
-                        className="btn transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 border-0 text-black hover:text-white hover:bg-[#001C42] bg-[#FFCC00]"
+                        className="btn lg:px-12 lg:py-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 border-0 text-white hover:text-black hover:bg-[#dee0e3] bg-[#F26A02]"
 
                     >
                         Donate Now

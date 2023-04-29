@@ -1,13 +1,12 @@
 import Image from 'next/image';
-import heroImg from '../public/images/hero.jpg'
+import heroImg from '../public/images/heroBgImage (1).png'
 import Gallary from './gallary/page';
-import GallaryFile from '@/components/GallaryFile';
 
 const HomePage = () => {
     return (
         <div>
             <section>
-                <div className="relative bg-white  sm:pt-16 lg:py-36 xl:py-48">
+                <div className="relative bg-white  sm:pt-16 lg:py-20 xl:py-48">
                     <div className="absolute inset-0 hidden  lg:block">
                         <Image className="object-cover object-right w-full h-full " src={heroImg} alt="" />
                     </div>
@@ -20,7 +19,7 @@ const HomePage = () => {
                         </div>
 
                         <div className="max-w-lg lg:pt-20 lg:pb-20 mx-auto text-center lg:mx-0 lg:max-w-[1000px]  lg:text-left">
-                            <h1 className="mt-3 text-balck text-4xl lg:leading-relaxed font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-7xl">
+                            <h1 className="mt-3 text-black text-4xl  font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-[85px]">
 
                                 <span className="font-bold text-[#F26A02]">Share your  love to </span> make someone’s life better
 

@@ -22,10 +22,10 @@ const HomePage = () => {
                         <div className="max-w-lg lg:pt-20 lg:pb-20 mx-auto text-center lg:mx-0 lg:max-w-[1000px]  lg:text-left">
                             <h1 className="mt-3 text-balck text-4xl lg:leading-relaxed font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-7xl">
 
-                                <span className="font-bold lg:text-[#F26A02]">Share your  love to </span> make someone’s life better
+                                <span className="font-bold text-[#F26A02]">Share your  love to </span> make someone’s life better
 
                             </h1>
-                            <p className="lg:text-white lg:text-2xl text-black mt-6 font-normal">Welcome to our NGO, dedicated to uplifting lives. Through our compassionate initiatives, we empower communities, provide essential resources, and foster sustainable change. Join us on this impactful journey towards a brighter future.</p>
+                            <p className="lg:text-white lg:text-2xl text-black mt-6 lg:pt-10 lg:pb-6 font-normal">Welcome to our NGO, dedicated to uplifting lives. Through our compassionate initiatives, we empower communities, provide essential resources, and foster sustainable change. Join us on this impactful journey towards a brighter future.</p>
 
                             <div className="mt-8 sm:mt-12">
                                 <a className="btn px-12 py-4  border-0 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 text-white hover:text-black hover:bg-[#dee0e3] bg-[#F26A02]">Donate Now</a>

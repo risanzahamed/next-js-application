@@ -185,6 +185,26 @@ const Header = () => {
                                 Contact Us
                             </Link>
                         </li>
+                        <li>
+                            <Link
+                                href='/login'
+                                aria-label='Login'
+                                title='Login'
+                                className='font-medium transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 tracking-wide text-black hover:underline hover:animate-pulse hover:bg-white  '
+                            >
+                                Login
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href='/sign-up'
+                                aria-label='Sign Up'
+                                title='Sign Up'
+                                className='font-medium transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 tracking-wide text-black hover:underline hover:animate-pulse hover:bg-white  '
+                            >
+                                Sign Up
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="navbar-end">

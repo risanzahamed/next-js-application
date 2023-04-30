@@ -19,7 +19,7 @@ const Gallary = () => {
                             <Image width={566} height={190} className="block h-full w-full rounded-lg object-cover object-center"
                                 src={image01}
                                 alt="" />
-                            <div className="absolute rounded-md m-2 inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229e0] bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute rounded-md m-2 inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229b1] bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-xl font-semibold text-white">
                                     Stop Racism
                                 </p>
@@ -35,7 +35,7 @@ const Gallary = () => {
                             <Image width={566} height={190} className="block h-full w-full rounded-lg object-cover object-center"
                                 src={image02}
                                 alt="" />
-                            <div className="absolute rounded-md m-2 inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229e0] bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute rounded-md m-2 inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229b1] bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-xl font-semibold text-white">
                                     Mental Health
                                 </p>
@@ -52,7 +52,7 @@ const Gallary = () => {
                             <Image width={566} height={190} className="block h-full w-full rounded-lg object-cover object-center"
                                 src={image04}
                                 alt="" />
-                            <div className="absolute  rounded-md m-2 inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229e0] bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute  rounded-md m-2 inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229b1] bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-xl font-semibold text-white">
                                     Voice Of Slum
                                 </p>
@@ -70,7 +70,7 @@ const Gallary = () => {
                             <Image width={566} height={190} className="block h-full w-full rounded-lg object-cover object-center"
                                 src={image03}
                                 alt="" />
-                            <div className="absolute m-2 rounded-md inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229e0] bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute m-2 rounded-md inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229b1] bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-xl font-semibold text-white">
                                     Stay Safe
                                 </p>
@@ -87,7 +87,7 @@ const Gallary = () => {
                             <Image width={566} height={190} className="block h-full w-full rounded-lg object-cover object-center"
                                 src={image06}
                                 alt="" />
-                            <div className="absolute  m-2 rounded-md inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229e0] bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute  m-2 rounded-md inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229b1] bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-xl font-semibold text-white">
                                     Take Vaccine
                                 </p>
@@ -102,7 +102,7 @@ const Gallary = () => {
                             <Image width={566} height={190} className="block h-full w-full rounded-lg object-cover object-center"
                                 src={image05}
                                 alt="" />
-                            <div className="absolute m-2 rounded-md inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229e0] bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute m-2 rounded-md inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-[#f68229b1] bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-xl font-semibold text-white">
                                     Voice Of Youth
                                 </p>

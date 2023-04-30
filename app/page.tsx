@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import heroImg from '../public/images/heroBgImage (1).png'
 import Gallary from './gallary/page';
+import Link from 'next/link';
 
 const HomePage = () => {
     return (
@@ -27,7 +28,15 @@ const HomePage = () => {
                             <p className="lg:text-white lg:text-2xl text-black mt-6 lg:pt-10 lg:pb-6 font-normal">Welcome to our NGO, dedicated to uplifting lives. Through our compassionate initiatives, we empower communities, provide essential resources, and foster sustainable change. Join us on this impactful journey towards a brighter future.</p>
 
                             <div className="mt-8 sm:mt-12">
-                                <a className="btn px-12 py-4  border-0 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 text-white hover:text-black hover:bg-[#dee0e3] bg-[#F26A02]">Donate Now</a>
+                                <Link
+                                    href='/donate'
+                                    aria-label='Donate Now'
+                                    title='Donate Now'
+                                    className="btn lg:px-12 lg:py-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 border-0 text-white hover:text-black hover:bg-[#dee0e3] bg-[#F26A02]"
+
+                                >
+                                    Donate Now
+                                </Link>
                             </div>
                         </div>
 
@@ -39,7 +48,7 @@ const HomePage = () => {
 
             <Gallary />
 
-            
+
         </div>
     );
 };

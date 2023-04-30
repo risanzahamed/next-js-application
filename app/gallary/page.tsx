@@ -9,7 +9,7 @@ import image06 from '../../public/images/post-139-copyright.jpg'
 const Gallary = () => {
     return (
         <div className="bg-white">
-            <div className="max-w-[1600px] lg:pb-24 bg-white mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+            <div className="max-w-[1440px] lg:pb-24 bg-white mx-auto px-5 py-2 lg:px-32 lg:pt-24">
                 <h2 className="mt-3 text-balck pb-6 pt-10 mb-4 lg:mb-24 text-4xl lg:leading-relaxed font-bold lg:text-black text-center sm:mt-8 sm:text-5xl xl:text-5xl lg:p-10"> Inspiring Change <span className="text-[#F26A02]">
                     Through Our Work
                 </span> </h2>
@@ -41,7 +41,7 @@ const Gallary = () => {
                                 </p>
 
                                 <p className="mb-4 text-sm tracking-wide text-white">
-                                    Breaking the Stigma: Promoting Mental Health Awareness encourages empathy, understanding, and support for those facing mental health challenges, fostering a more compassionate and inclusive society.
+                                    Breaking the Stigma: Promoting Mental Health Awareness encourages empathy, understanding, and support for those facing mental health challenges.
                                 </p>
 
                             </div>
@@ -58,7 +58,7 @@ const Gallary = () => {
                                 </p>
 
                                 <p className="mb-4 text-sm tracking-wide text-white">
-                                    Empowering the Unheard: The Voice of Slum amplifies the resilient spirit and untapped potential within marginalized communities, inspiring positive change and social justice for a brighter future.
+                                    Empowering the Unheard: The Voice of Slum amplifies the resilient spirit and untapped potential within marginalized communities.
                                 </p>
 
                             </div>
@@ -76,7 +76,7 @@ const Gallary = () => {
                                 </p>
 
                                 <p className="mb-4 text-sm tracking-wide text-white">
-                                    Protecting Lives: Stay Safe promotes responsible choices and precautionary measures, ensuring the well-being of individuals and communities in the face of adversity. Together, we can overcome challenges.
+                                    Protecting Lives: Stay Safe promotes responsible choices and precautionary measures, ensuring the well-being of individuals and communities in the face of adversity.
                                 </p>
 
                             </div>
@@ -93,7 +93,7 @@ const Gallary = () => {
                                 </p>
 
                                 <p className="mb-4 text-sm tracking-wide text-white">
-                                    Defeat the Pandemic: Embrace Vaccination as a crucial step towards safeguarding our health, restoring normalcy, and protecting our loved ones. Lets unite for a healthier, resilient future.
+                                    Defeat the Pandemic: Embrace Vaccination as a crucial step towards safeguarding our health, restoring normalcy, and protecting our loved ones. 
                                 </p>
 
                             </div>
@@ -108,7 +108,7 @@ const Gallary = () => {
                                 </p>
 
                                 <p className="mb-4 text-sm tracking-wide text-white">
-                                    Youth Empowerment: The Voice of Youth ignites change, inspires innovation, and shapes a world where young minds lead with passion, resilience, and a vision for a brighter tomorrow.
+                                    Youth Empowerment: The Voice of Youth ignites change, inspires innovation, and shapes a world where young minds lead with passion, resilience.
                                 </p>
 
                             </div>

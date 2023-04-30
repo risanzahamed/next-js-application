@@ -6,11 +6,11 @@ const Header = () => {
 
     return (
 
-        <div className="bg-white">
+        <div className="bg-white ">
 
             <section className="py-5 bg-gray-900 ">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-[1400px]">
-                    <div className="grid grid-cols-1 mx-auto text-center text-white md:grid-cols-4 md:gap-x-12">
+                <div className="px-4 mx-auto sm:px-6 lg:px-24  lg:max-w-[1440px]">
+                    <div className="grid grid-cols-1  mx-auto text-center text-white md:grid-cols-4 md:gap-x-12">
                         <div className="mt-2  lg:mt-0">
                             <h2>Call For any help: +8801727951592</h2>
                         </div>
@@ -54,7 +54,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <div className="navbar lg:w-[1350px] h-[90px] mx-auto bg-base-100">
+            <div className="navbar lg:px-24 max-w-[1440px] h-[90px] mx-auto bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

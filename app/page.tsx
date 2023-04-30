@@ -11,16 +11,15 @@ const HomePage = () => {
                     <div className="absolute inset-0 hidden  lg:block">
                         <Image className="object-cover object-right w-full h-full " src={heroImg} alt="" />
                     </div>
-                    <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-[1400px]">
+                    <div className="relative px-4 mx-auto sm:px-6 lg:px-24 max-w-[1440px]">
 
                         <div className="pt-4  lg:hidden">
                             <Image width={566} height={190} className="w-full mx-auto "
                                 src={heroImg}
                                 alt="" />
                         </div>
-
-                        <div className="max-w-lg  mx-auto text-center lg:mx-0 lg:max-w-[1000px]  lg:text-left">
-                            <h1 className="mt-3 text-black text-4xl leading-snug font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-[85px]">
+                        <div className="  mx-auto text-center lg:mx-0 lg:max-w-[1000px]  lg:text-left">
+                            <h1 className="mt-3 text-black text-4xl leading-snug font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-[70px]">
 
                                 <span className="font-bold text-[#F26A02]">Share your  love to </span> make someone’s life better
 
@@ -39,9 +38,6 @@ const HomePage = () => {
                                 </Link>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>

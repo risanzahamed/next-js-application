@@ -19,8 +19,8 @@ const HomePage = () => {
                                 alt="" />
                         </div>
 
-                        <div className="max-w-lg lg:pt-20 lg:pb-20 mx-auto text-center lg:mx-0 lg:max-w-[1000px]  lg:text-left">
-                            <h1 className="mt-3 text-black text-4xl  font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-[85px]">
+                        <div className="max-w-lg  mx-auto text-center lg:mx-0 lg:max-w-[1000px]  lg:text-left">
+                            <h1 className="mt-3 text-black text-4xl leading-snug font-bold lg:text-white sm:mt-8 sm:text-5xl xl:text-[85px]">
 
                                 <span className="font-bold text-[#F26A02]">Share your  love to </span> make someone’s life better
 
